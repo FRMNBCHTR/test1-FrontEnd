@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(151, 151, 151, 0.2);
+  transition: 0.3s;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.column {
+  float: left;
+  width: 49%;
+  padding: 0 5px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 30px;}
+
+/* Clear floats after the columns */
+
+
+</style>
+</head>
+<body>
+
+<h2>Test 1</h2>
+<div class="row">
+    <div class="column">
+<div class="card"> 
+  <img src="https://unsplash.com/photos/78A265wPiO4" >
+  <div class="container">
+    <h3><b>Top Winter Location</b></h3> 
+    <h4>More Than 200 Location</h4> 
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+         Quisque nec posuere est. Vestibulum ac mattis mauris. 
+         Donec viverra mauris sit amet lectus dapibus malesuada. 
+         Nullam ac sagittis ex.Orci varius natoque 
+        penatibus et magnis dis parturient montes, nascetur 
+        ridiculus mus. Pellentesque eu ornare augue.</p>
+    </br>
+        <p><a href="https://www.w3schools.com/">share</a></p>
+    </br>
+    <p><a href="https://www.w3schools.com/">Explore</a></p>
+</div>
+</div>
+</div>
+    <div class="column">
+<div class="card"> 
+    <img src="https://unsplash.com/photos/78A265wPiO4" >
+    <div class="container">
+      <h3><b>Top Winter Location</b></h3> 
+      <h4>More Than 200 Location</h4> 
+      
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           Quisque nec posuere est. Vestibulum ac mattis mauris. 
+           Donec viverra mauris sit amet lectus dapibus malesuada. 
+           Nullam ac sagittis ex.Orci varius natoque 
+          penatibus et magnis dis parturient montes, nascetur 
+          ridiculus mus. Pellentesque eu ornare augue.</p>
+      </br>
+          <p><a href="https://www.w3schools.com/">share</a></p>
+      </br>
+      <p><a href="https://www.w3schools.com/">Explore</a></p>
+  </div>
+  </div>
+</div>
+</div>
+<script>
+   
+    </script>
+</body>
+</html> 
